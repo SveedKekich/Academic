@@ -59,7 +59,8 @@ void Task_1()
     float result = (count * 100) / 7;
     cout << result << "%\n";
 }
-void Task_2(){
+void Task_2()
+{
     Student2 myStudents2[7];
     myStudents2[0] = {"Ukrainian", 3, 4.4};
     myStudents2[1] = {"Ukrainian", 1, 5};
@@ -69,13 +70,15 @@ void Task_2(){
     myStudents2[5] = {"Ukrainian", 2, 5};
     myStudents2[6] = {"Ukrainian", 1, 4.7};
     float count2 = 0;
-    for(int i=0;i<7;i++){
-        if(myStudents2[i].nationality=="Ukrainian" && myStudents2[i].average_grade>4.5){
+    for (int i = 0; i < 7; i++)
+    {
+        if (myStudents2[i].nationality == "Ukrainian" && myStudents2[i].average_grade > 4.5)
+        {
             count2++;
         }
     }
-    float result2 = (count2*100)/7;
-    cout<<result2<<"%\n";
+    float result2 = (count2 * 100) / 7;
+    cout << result2 << "%\n";
 }
 int main()
 {
