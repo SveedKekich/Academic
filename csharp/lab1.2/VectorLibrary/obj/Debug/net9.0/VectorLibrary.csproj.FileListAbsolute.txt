@@ -1,0 +1,11 @@
+D:\code\VectorLibrary\bin\Debug\net9.0\VectorLibrary.deps.json
+D:\code\VectorLibrary\bin\Debug\net9.0\VectorLibrary.dll
+D:\code\VectorLibrary\bin\Debug\net9.0\VectorLibrary.pdb
+D:\code\VectorLibrary\obj\Debug\net9.0\VectorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\VectorLibrary\obj\Debug\net9.0\VectorLibrary.AssemblyInfoInputs.cache
+D:\code\VectorLibrary\obj\Debug\net9.0\VectorLibrary.AssemblyInfo.cs
+D:\code\VectorLibrary\obj\Debug\net9.0\VectorLibrary.csproj.CoreCompileInputs.cache
+D:\code\VectorLibrary\obj\Debug\net9.0\VectorLibrary.dll
+D:\code\VectorLibrary\obj\Debug\net9.0\refint\VectorLibrary.dll
+D:\code\VectorLibrary\obj\Debug\net9.0\VectorLibrary.pdb
+D:\code\VectorLibrary\obj\Debug\net9.0\ref\VectorLibrary.dll
