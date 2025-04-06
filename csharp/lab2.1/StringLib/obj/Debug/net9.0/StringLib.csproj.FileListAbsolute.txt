@@ -1,0 +1,11 @@
+D:\code\lab2.1\StringLib\bin\Debug\net9.0\StringLib.deps.json
+D:\code\lab2.1\StringLib\bin\Debug\net9.0\StringLib.dll
+D:\code\lab2.1\StringLib\bin\Debug\net9.0\StringLib.pdb
+D:\code\lab2.1\StringLib\obj\Debug\net9.0\StringLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\lab2.1\StringLib\obj\Debug\net9.0\StringLib.AssemblyInfoInputs.cache
+D:\code\lab2.1\StringLib\obj\Debug\net9.0\StringLib.AssemblyInfo.cs
+D:\code\lab2.1\StringLib\obj\Debug\net9.0\StringLib.csproj.CoreCompileInputs.cache
+D:\code\lab2.1\StringLib\obj\Debug\net9.0\StringLib.dll
+D:\code\lab2.1\StringLib\obj\Debug\net9.0\refint\StringLib.dll
+D:\code\lab2.1\StringLib\obj\Debug\net9.0\StringLib.pdb
+D:\code\lab2.1\StringLib\obj\Debug\net9.0\ref\StringLib.dll
