@@ -1,0 +1,18 @@
+#ifndef BASESTRING_H
+#define BASESTRING_H
+
+#include <string>
+using namespace std;
+
+class BaseString {
+protected:
+    string value;
+
+public:
+    BaseString();
+    explicit BaseString(const string& str);
+    int getLength() const;
+    string getValue() const;
+};
+
+#endif
