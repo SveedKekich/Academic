@@ -1,0 +1,15 @@
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\bin\Debug\net9.0\lab2.4.exe
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\bin\Debug\net9.0\lab2.4.deps.json
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\bin\Debug\net9.0\lab2.4.runtimeconfig.json
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\bin\Debug\net9.0\lab2.4.dll
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\bin\Debug\net9.0\lab2.4.pdb
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\obj\Debug\net9.0\lab2.4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\obj\Debug\net9.0\lab2.4.AssemblyInfoInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\obj\Debug\net9.0\lab2.4.AssemblyInfo.cs
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\obj\Debug\net9.0\lab2.4.csproj.CoreCompileInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\obj\Debug\net9.0\lab2.4.sourcelink.json
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\obj\Debug\net9.0\lab2.4.dll
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\obj\Debug\net9.0\refint\lab2.4.dll
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\obj\Debug\net9.0\lab2.4.pdb
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\obj\Debug\net9.0\lab2.4.genruntimeconfig.cache
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.4\obj\Debug\net9.0\ref\lab2.4.dll

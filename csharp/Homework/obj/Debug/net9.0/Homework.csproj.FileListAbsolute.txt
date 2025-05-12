@@ -1,0 +1,15 @@
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\bin\Debug\net9.0\Homework.exe
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\bin\Debug\net9.0\Homework.deps.json
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\bin\Debug\net9.0\Homework.runtimeconfig.json
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\bin\Debug\net9.0\Homework.dll
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\bin\Debug\net9.0\Homework.pdb
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\obj\Debug\net9.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\obj\Debug\net9.0\Homework.AssemblyInfoInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\obj\Debug\net9.0\Homework.AssemblyInfo.cs
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\obj\Debug\net9.0\Homework.csproj.CoreCompileInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\obj\Debug\net9.0\Homework.sourcelink.json
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\obj\Debug\net9.0\Homework.dll
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\obj\Debug\net9.0\refint\Homework.dll
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\obj\Debug\net9.0\Homework.pdb
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\obj\Debug\net9.0\Homework.genruntimeconfig.cache
+C:\Users\Дмитро\Academic\Academic\csharp\Homework\obj\Debug\net9.0\ref\Homework.dll
