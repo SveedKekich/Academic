@@ -9,3 +9,15 @@ D:\code\lab2.1\StringLib\obj\Debug\net9.0\StringLib.dll
 D:\code\lab2.1\StringLib\obj\Debug\net9.0\refint\StringLib.dll
 D:\code\lab2.1\StringLib\obj\Debug\net9.0\StringLib.pdb
 D:\code\lab2.1\StringLib\obj\Debug\net9.0\ref\StringLib.dll
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\bin\Debug\net9.0\StringLib.deps.json
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\bin\Debug\net9.0\StringLib.dll
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\bin\Debug\net9.0\StringLib.pdb
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\obj\Debug\net9.0\StringLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\obj\Debug\net9.0\StringLib.AssemblyInfoInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\obj\Debug\net9.0\StringLib.AssemblyInfo.cs
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\obj\Debug\net9.0\StringLib.csproj.CoreCompileInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\obj\Debug\net9.0\StringLib.sourcelink.json
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\obj\Debug\net9.0\StringLib.dll
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\obj\Debug\net9.0\refint\StringLib.dll
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\obj\Debug\net9.0\StringLib.pdb
+C:\Users\Дмитро\Academic\Academic\csharp\lab2.1\StringLib\obj\Debug\net9.0\ref\StringLib.dll

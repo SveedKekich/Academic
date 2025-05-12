@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\VectorApp\\VectorApp.csproj": {}
+    "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorApp\\VectorApp.csproj": {}
   },
   "projects": {
-    "D:\\code\\VectorApp\\VectorApp.csproj": {
+    "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorApp\\VectorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\VectorApp\\VectorApp.csproj",
+        "projectUniqueName": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorApp\\VectorApp.csproj",
         "projectName": "VectorApp",
-        "projectPath": "D:\\code\\VectorApp\\VectorApp.csproj",
+        "projectPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorApp\\VectorApp.csproj",
         "packagesPath": "C:\\Users\\Дмитро\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\VectorApp\\obj\\",
+        "outputPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Дмитро\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\code\\VectorLibrary\\VectorLibrary.csproj": {
-                "projectPath": "D:\\code\\VectorLibrary\\VectorLibrary.csproj"
+              "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorLibrary\\VectorLibrary.csproj": {
+                "projectPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorLibrary\\VectorLibrary.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "D:\\code\\VectorLibrary\\VectorLibrary.csproj": {
+    "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorLibrary\\VectorLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\VectorLibrary\\VectorLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorLibrary\\VectorLibrary.csproj",
         "projectName": "VectorLibrary",
-        "projectPath": "D:\\code\\VectorLibrary\\VectorLibrary.csproj",
+        "projectPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorLibrary\\VectorLibrary.csproj",
         "packagesPath": "C:\\Users\\Дмитро\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\VectorLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Дмитро\\AppData\\Roaming\\NuGet\\NuGet.Config"

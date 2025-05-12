@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\lab2.1\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab2.1\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\code\\lab2.1\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab2.1\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\lab2.1\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab2.1\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "D:\\code\\lab2.1\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab2.1\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\Дмитро\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\lab2.1\\ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab2.1\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Дмитро\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\code\\lab2.1\\StringLib\\StringLib.csproj": {
-                "projectPath": "D:\\code\\lab2.1\\StringLib\\StringLib.csproj"
+              "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab2.1\\StringLib\\StringLib.csproj": {
+                "projectPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab2.1\\StringLib\\StringLib.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "D:\\code\\lab2.1\\StringLib\\StringLib.csproj": {
+    "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab2.1\\StringLib\\StringLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\lab2.1\\StringLib\\StringLib.csproj",
+        "projectUniqueName": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab2.1\\StringLib\\StringLib.csproj",
         "projectName": "StringLib",
-        "projectPath": "D:\\code\\lab2.1\\StringLib\\StringLib.csproj",
+        "projectPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab2.1\\StringLib\\StringLib.csproj",
         "packagesPath": "C:\\Users\\Дмитро\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\lab2.1\\StringLib\\obj\\",
+        "outputPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab2.1\\StringLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Дмитро\\AppData\\Roaming\\NuGet\\NuGet.Config"

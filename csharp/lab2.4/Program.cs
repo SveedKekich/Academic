@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 class Program
@@ -9,7 +9,7 @@ class Program
         {
             new Expression(2, 3, 5, 1),
             new Expression(1, 1, 4, 2),
-            new Expression(1, 2, 8, 0.5) // потенційна помилка
+            new Expression(1, 2, 8, 0.5) 
         };
 
         for (int i = 0; i < expressions.Count; i++)

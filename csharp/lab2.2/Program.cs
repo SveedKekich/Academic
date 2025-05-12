@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 class Program {
     static void PrintFigureInfo(Figure fig) {

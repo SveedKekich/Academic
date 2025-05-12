@@ -9,3 +9,15 @@ D:\code\VectorLibrary\obj\Debug\net9.0\VectorLibrary.dll
 D:\code\VectorLibrary\obj\Debug\net9.0\refint\VectorLibrary.dll
 D:\code\VectorLibrary\obj\Debug\net9.0\VectorLibrary.pdb
 D:\code\VectorLibrary\obj\Debug\net9.0\ref\VectorLibrary.dll
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\bin\Debug\net9.0\VectorLibrary.deps.json
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\bin\Debug\net9.0\VectorLibrary.dll
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\bin\Debug\net9.0\VectorLibrary.pdb
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\obj\Debug\net9.0\VectorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\obj\Debug\net9.0\VectorLibrary.AssemblyInfoInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\obj\Debug\net9.0\VectorLibrary.AssemblyInfo.cs
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\obj\Debug\net9.0\VectorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\obj\Debug\net9.0\VectorLibrary.sourcelink.json
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\obj\Debug\net9.0\VectorLibrary.dll
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\obj\Debug\net9.0\refint\VectorLibrary.dll
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\obj\Debug\net9.0\VectorLibrary.pdb
+C:\Users\Дмитро\Academic\Academic\csharp\lab1.2\VectorLibrary\obj\Debug\net9.0\ref\VectorLibrary.dll

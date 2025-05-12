@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\VectorLibrary\\VectorLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorLibrary\\VectorLibrary.csproj",
       "projectName": "VectorLibrary",
-      "projectPath": "D:\\code\\VectorLibrary\\VectorLibrary.csproj",
+      "projectPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorLibrary\\VectorLibrary.csproj",
       "packagesPath": "C:\\Users\\Дмитро\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\VectorLibrary\\obj\\",
+      "outputPath": "C:\\Users\\Дмитро\\Academic\\Academic\\csharp\\lab1.2\\VectorLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Дмитро\\AppData\\Roaming\\NuGet\\NuGet.Config"
