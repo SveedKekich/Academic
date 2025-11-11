@@ -11,11 +11,7 @@ class Node(Generic[T]):
     right: Optional['Node[T]'] = None
 
 class BinarySearchTree(Generic[T]):
-    """
-    A generic binary search tree. Comparison is done either by:
-     - provided comparator function cmp(a, b) -> negative/0/positive
-     - or by the natural ordering of the elements (they must implement rich comparisons)
-    """
+    
     def __init__(self, cmp: Optional[Callable[[T, T], int]] = None):
         self.root: Optional[Node[T]] = None
         self._cmp = cmp
@@ -23,7 +19,6 @@ class BinarySearchTree(Generic[T]):
     def _compare(self, a: T, b: T) -> int:
         if self._cmp is not None:
             return self._cmp(a, b)
-        # Try natural comparison
         if a == b:
             return 0
         if a < b:
@@ -76,13 +71,11 @@ class BinarySearchTree(Generic[T]):
         self._inorder(self.root, out)
         return out
 
-    # Iterator support: return a custom iterator (implements __next__) for inorder traversal
     def __iter__(self) -> Iterator[T]:
         return InorderIterator(self.root)
 
 class InorderIterator(Generic[T]):
     def __init__(self, root: Optional[Node[T]]):
-        # initialize stack for iterative inorder traversal
         self.stack: List[Node[T]] = []
         self._push_left(root)
 
