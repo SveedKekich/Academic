@@ -1,0 +1,47 @@
+[
+  {
+    "last_name": "Іваненко",
+    "first_name": "Марія",
+    "year": 1,
+    "id_card": "ST001",
+    "sex": "Ж",
+    "address": "м. Київ",
+    "dorm": "1.204"
+  },
+  {
+    "last_name": "Петренко",
+    "first_name": "Олег",
+    "year": 2,
+    "id_card": "ST002",
+    "sex": "Ч",
+    "address": "м. Львів",
+    "dorm": ""
+  },
+  {
+    "last_name": "Сидорова",
+    "first_name": "Анастасія",
+    "year": 1,
+    "id_card": "ST003",
+    "sex": "Ж",
+    "address": "гуртожиток 2.105",
+    "dorm": "2.105"
+  },
+  {
+    "last_name": "Гончар",
+    "first_name": "Ірина",
+    "year": 1,
+    "id_card": "ST004",
+    "sex": "Ж",
+    "address": "гуртожиток 1.305",
+    "dorm": "1.305"
+  },
+  {
+    "last_name": "Бондар",
+    "first_name": "Дмитро",
+    "year": 3,
+    "id_card": "ST005",
+    "sex": "Ч",
+    "address": "м. Харків",
+    "dorm": ""
+  }
+]

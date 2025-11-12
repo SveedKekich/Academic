@@ -5,7 +5,7 @@ import array
 
 def demo(products):
     print("=== Collections Demo ===")
-    # 1) Python list (generic коллекція)
+    # 1) Python list (узагальнена коллекція)
     lst = list(products)  # copy
     print("\n-- List initially --")
     for p in lst:
@@ -34,7 +34,7 @@ def demo(products):
     for p in lst:
         print(" -", p.code, p.name)
 
-    # 2) deque (non-generic коллекція)
+    # 2) deque (неузагальнена коллекція)
     dq = deque(products)
     print("\n-- Deque initially --")
     for p in dq:
