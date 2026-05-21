@@ -1,0 +1,8 @@
+C:\Users\Дмитро\Academic\Academic\csharp\messenger\MessengerApi\obj\Debug\net9.0\MessengerApi.csproj.AssemblyReference.cache
+C:\Users\Дмитро\Academic\Academic\csharp\messenger\MessengerApi\obj\Debug\net9.0\MessengerApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитро\Academic\Academic\csharp\messenger\MessengerApi\obj\Debug\net9.0\MessengerApi.AssemblyInfoInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\messenger\MessengerApi\obj\Debug\net9.0\MessengerApi.AssemblyInfo.cs
+C:\Users\Дмитро\Academic\Academic\csharp\messenger\MessengerApi\obj\Debug\net9.0\MessengerApi.csproj.CoreCompileInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\messenger\MessengerApi\obj\Debug\net9.0\MessengerApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Дмитро\Academic\Academic\csharp\messenger\MessengerApi\obj\Debug\net9.0\MessengerApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Дмитро\Academic\Academic\csharp\messenger\MessengerApi\obj\Debug\net9.0\MessengerApi.sourcelink.json

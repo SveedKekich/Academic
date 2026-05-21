@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VectorApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1813a216722819e5df05241ed76934aaeda9e710")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d9c7918d2e9ded5063fd0a7862b12808022444d")]
 [assembly: System.Reflection.AssemblyProductAttribute("VectorApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VectorApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
