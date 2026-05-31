@@ -1,0 +1,15 @@
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\bin\Debug\net9.0\GameSimulator.exe
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\bin\Debug\net9.0\GameSimulator.deps.json
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\bin\Debug\net9.0\GameSimulator.runtimeconfig.json
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\bin\Debug\net9.0\GameSimulator.dll
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\bin\Debug\net9.0\GameSimulator.pdb
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\obj\Debug\net9.0\GameSimulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\obj\Debug\net9.0\GameSimulator.AssemblyInfoInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\obj\Debug\net9.0\GameSimulator.AssemblyInfo.cs
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\obj\Debug\net9.0\GameSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\obj\Debug\net9.0\GameSimulator.sourcelink.json
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\obj\Debug\net9.0\GameSimulator.dll
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\obj\Debug\net9.0\refint\GameSimulator.dll
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\obj\Debug\net9.0\GameSimulator.pdb
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\obj\Debug\net9.0\GameSimulator.genruntimeconfig.cache
+C:\Users\Дмитро\Academic\Academic\csharp\GameSimulator\obj\Debug\net9.0\ref\GameSimulator.dll
