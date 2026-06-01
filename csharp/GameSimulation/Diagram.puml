@@ -1,0 +1,151 @@
+@startuml GameSimulation_UML
+
+skinparam backgroundColor #FFFFFF
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+
+title Діаграма класів: Симулятор комп'ютерних ігор (Варіант 7)
+
+package "Infrastructure / UI Шар" #LightGreen {
+    class Player {
+        + Name : string
+        + Library : List<Game>
+        - _currentlyPlaying : Game
+        + Player(name : string)
+        + AddGameToLibrary(game : Game) : void
+        + PlayGame(game : Game, device : Device) : void
+        + StopCurrentGame() : void
+        - HandleGameNotification(sender : object, e : GameEventArgs) : void
+    }
+}
+
+package "Domain Шар (Бізнес-логіка)" #LightCyan {
+    class Game {
+        + Title : string
+        + Genre : GameGenre
+        + Requirements : HardwareSpecs
+        + Compatibility : ICompatibilityStrategy
+        + IsLoggedIn : bool
+        + HasSaves : bool
+        + IsMultiplayerSupported : bool
+        + OnGameEvent : event EventHandler<GameEventArgs>
+        + Game(title, genre, req, compatibility, isMultiplayer)
+        + ChangeState(state : IGameState) : void
+        + Notify(message : string, type : GameNotificationType) : void
+        + Install(device : Device) : void
+        + Launch(device : Device) : void
+        + Login() : void
+        + Save() : void
+        + Load() : void
+        + Close() : void
+        + StartMultiplayer(controllersCount : int) : void
+    }
+
+    class Device {
+        + Platform : DevicePlatform
+        + Specs : HardwareSpecs
+        + AvailableHddSpaceGb : int
+        + Device(platform, specs)
+        + StreamToOtherDevice() : void
+    }
+
+    class HardwareSpecs {
+        + CpuCores : int
+        + RamGb : int
+        + VramGb : int
+        + HddSpaceGb : int
+        + HardwareSpecs(cpu, ram, vram, hdd)
+    }
+
+    enum DevicePlatform {
+        WindowsPC
+        Mobile
+    }
+
+    enum GameGenre {
+        Strategy
+        Adventure
+        RPG
+    }
+}
+
+package "Патерн: STATE (Життєвий цикл)" #Lavender {
+    interface IGameState {
+        + Install(context : Game, device : Device) : void
+        + Launch(context : Game, device : Device) : void
+        + Login(context : Game) : void
+        + Save(context : Game) : void
+        + Load(context : Game) : void
+        + Close(context : Game) : void
+    }
+
+    class NotInstalledState implements IGameState {
+        + Install(context, device) : void
+        + Launch(context, device) : void
+        + Login(context) : void
+        + Save(context) : void
+        + Load(context) : void
+        + Close(context) : void
+    }
+
+    class InstalledState implements IGameState {
+        + Install(context, device) : void
+        + Launch(context, device) : void
+        + Login(context) : void
+        + Save(context) : void
+        + Load(context) : void
+        + Close(context) : void
+    }
+
+    class LaunchedState implements IGameState {
+        + Install(context, device) : void
+        + Launch(context, device) : void
+        + Login(context) : void
+        + Save(context) : void
+        + Load(context) : void
+        + Close(context) : void
+    }
+}
+
+package "Патерн: STRATEGY (Сумісність)" #LightYellow {
+    interface ICompatibilityStrategy {
+        + IsCompatible(platform : DevicePlatform) : bool
+    }
+
+    class WindowsOnlyStrategy implements ICompatibilityStrategy {
+        + IsCompatible(platform : DevicePlatform) : bool
+    }
+
+    class CrossPlatformStrategy implements ICompatibilityStrategy {
+        + IsCompatible(platform : DevicePlatform) : bool
+    }
+}
+
+package "Патерн: OBSERVER (Події C#)" #MistyRose {
+    class GameEventArgs {
+        + Message : string
+        + Type : GameNotificationType
+        + GameEventArgs(message, type)
+    }
+
+    enum GameNotificationType {
+        Info
+        Warning
+        Error
+        Success
+    }
+}
+
+Player "1" o-- "*" Game : Володіє та спостерігає (Observer)
+Player ..> GameEventArgs : Обробляє події
+
+Game "1" *-- "1" IGameState : Делегує стан (Композиція)
+Game "1" *-- "1" ICompatibilityStrategy : Використовує (Композиція)
+Game "1" *-- "1" HardwareSpecs : Вимоги
+Game --> GameEventArgs : Створює
+Game ..> Device : Інсталюється на
+
+Device "1" *-- "1" HardwareSpecs : Характеристики
+Device ..> DevicePlatform : Має тип
+
+@endum

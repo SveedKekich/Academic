@@ -1,0 +1,116 @@
+@startuml GameSimulator_UML
+skinparam classAttributeIconSize 0
+skinparam monochrome false
+skinparam shadowing false
+
+enum PlatformType {
+    WindowsPC
+    Mobile
+    Console
+}
+
+class HardwareSpecs {
+    + CpuCores : int
+    + RamGb : int
+    + VramGb : int
+    + SizeOnHddGb : int
+    + HardwareSpecs(cpu: int, ram: int, vram: int, hdd: int)
+    + MeetsRequirements(requirements: HardwareSpecs) : bool
+}
+
+class HardDrive {
+    + TotalCapacityGb : int
+    + FreeSpaceGb : int
+    + HardDrive(totalCapacityGb: int)
+    + AllocateSpace(sizeGb: int) : bool
+}
+
+class GameEventArgs {
+    + Message : string
+    + GameEventArgs(message: string)
+}
+
+interface IGame {
+    + Name : string {get}
+    + Genre : string {get}
+    + IsInstalled : bool {get}
+    + IsRunning : bool {get}
+    + IsLoggedIn : bool {get}
+    + HardwareRequirements : HardwareSpecs {get}
+    + SaveSlotsCount : int {get}
+    + OnStateChanged : event EventHandler<GameEventArgs>
+    + Install(drive: HardDrive) : void
+    + Launch(currentSpecs: HardwareSpecs, platform: PlatformType) : void
+    + Login(username: string) : void
+    + SaveProgress() : void
+    + LoadProgress() : void
+    + Close() : void
+}
+
+abstract class BaseGame {
+    + Name : string
+    + Genre : string
+    + IsInstalled : bool
+    + IsRunning : bool
+    + IsLoggedIn : bool
+    + HardwareRequirements : HardwareSpecs
+    + SaveSlotsCount : int
+    + OnStateChanged : event EventHandler<GameEventArgs>
+    # BaseGame(name: string, genre: string, requirements: HardwareSpecs)
+    # RaiseEvent(message: string) : void
+}
+
+class StrategyGame {
+    + StrategyGame(name: string, requirements: HardwareSpecs)
+    + Launch(currentSpecs: HardwareSpecs, platform: PlatformType) : void
+}
+
+class AdventureGame {
+    + AdventureGame(name: string, requirements: HardwareSpecs)
+}
+
+class RpgGame {
+    + IsMultiplayerActive : bool
+    + RpgGame(name: string, requirements: HardwareSpecs)
+    + SetupMultiplayer(controllersCount: int) : void
+}
+
+class Device {
+    + ModelName : string {get}
+    + Specs : HardwareSpecs {get}
+    + Drive : HardDrive {get}
+    + Platform : PlatformType {get}
+    + ConnectedControllers : int {get}
+    + CurrentGame : IGame {get}
+    + OnDeviceLog : event EventHandler<GameEventArgs>
+    + Device(name: string, platform: PlatformType, specs: HardwareSpecs, initialHdd: int)
+    + ConnectControllers(count: int) : void
+    + StreamToDevice(targetDevice: Device) : void
+    + InstallGame(game: IGame) : void
+    + PlayGame(game: IGame, username: string) : void
+    + StopCurrentGame() : void
+}
+
+class ConsoleNotificationService <<static>> {
+    + SubscribeToGame(game: IGame) : void
+    + SubscribeToDevice(device: Device) : void
+}
+
+IGame <|.. BaseGame : "Реалізує"
+BaseGame <|-- StrategyGame : "Наслідує"
+BaseGame <|-- AdventureGame : "Наслідує"
+BaseGame <|-- RpgGame : "Наслідує"
+
+Device "1" *-- "1" HardwareSpecs : "Має (Композиція)"
+Device "1" *-- "1" HardDrive : "Має (Композиція)"
+Device "1" o-- "0..1" IGame : "Асоціація (Поточна гра)"
+Device ..> PlatformType : "Використовує"
+
+BaseGame "1" *-- "1" HardwareSpecs : "Має вимоги"
+BaseGame ..> HardDrive : "Використовує для інсталяції"
+
+ConsoleNotificationService ..> IGame : "Підписується"
+ConsoleNotificationService ..> Device : "Підписується"
+ConsoleNotificationService ..> GameEventArgs : "Обробляє події"
+
+@enduml
