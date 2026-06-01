@@ -2,7 +2,6 @@ using System;
 
 namespace GameSimulator
 {
-    // Базовий клас (DRY - виносимо спільну логіку станів)
     public abstract class BaseGame : IGame
     {
         public string Name { get; }

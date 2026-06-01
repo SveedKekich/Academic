@@ -21,7 +21,7 @@ namespace GameSimulation.Infrastructure
         public void AddGameToLibrary(Game game)
         {
             Library.Add(game);
-            game.OnGameEvent += HandleGameNotification; // Підписка на Observer події
+            game.OnGameEvent += HandleGameNotification; 
         }
 
         private void HandleGameNotification(object? sender, GameEventArgs e)

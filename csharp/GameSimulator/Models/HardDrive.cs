@@ -1,6 +1,5 @@
 namespace GameSimulator
 {
-    // Клас керування жорстким диском (Single Responsibility)
     public class HardDrive
     {
         public int TotalCapacityGb { get; private set; }

@@ -19,7 +19,6 @@ namespace GameSimulator
             IGame cyberpunk = new RpgGame("Cyberpunk 2077", new HardwareSpecs(6 ,12 ,4 , 60));
             IGame StardewValley = new AdventureGame("Stardew Valley", new HardwareSpecs(2, 2, 0, 2));
 
-            // Підписка через наш сервіс виведення
             ConsoleNotificationService.SubscribeToDevice(winPC);
             ConsoleNotificationService.SubscribeToDevice(phone);
             ConsoleNotificationService.SubscribeToGame(civilization);

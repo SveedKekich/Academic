@@ -14,23 +14,18 @@ namespace GameSimulation
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("=== СИМУЛЯТОР КОМП'ЮТЕРНИХ ІГОР ===");
 
-            // 1. Створення пристроїв
             Device PC = new Device(DevicePlatform.WindowsPC, new HardwareSpecs(8, 16, 8, 500));
             Device Phone = new Device(DevicePlatform.Mobile, new HardwareSpecs(4, 6, 2, 64));
             Device WeakPC = new Device(DevicePlatform.WindowsPC, new HardwareSpecs(2, 4, 1, 200));
 
-            // 2. Створення ігор
             Game starcraft = new Game("StarCraft II", GameGenre.Strategy, new HardwareSpecs(4, 8, 2, 30), new WindowsOnlyStrategy());
             Game witcher = new Game("The Witcher 3", GameGenre.RPG, new HardwareSpecs(6, 12, 4, 50), new CrossPlatformStrategy(), isMultiplayerSupported: true);
             Game badGame = new Game("Unoptimized Game", GameGenre.Adventure, new HardwareSpecs(16, 64, 24, 600), new CrossPlatformStrategy());
 
-            // 3. Створення гравця
             Player player = new Player("Олексій");
             player.AddGameToLibrary(starcraft);
             player.AddGameToLibrary(witcher);
             player.AddGameToLibrary(badGame);
-
-            // --- ДЕМОНСТРАЦІЯ СЦЕНАРІЇВ ---
 
             Console.WriteLine("\n--- Тест 1: Перевірка сумісності (Стратегія на Mobile) ---");
             starcraft.Install(Phone);

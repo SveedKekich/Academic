@@ -2,7 +2,6 @@ using System;
 
 namespace GameSimulator
 {
-    // Окремий клас виведення на консоль (Принцип SRP та Loose Coupling)
     public static class ConsoleNotificationService
     {
         public static void SubscribeToGame(IGame game)

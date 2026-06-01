@@ -1,6 +1,5 @@
 namespace GameSimulator
 {
-    // Клас для опису характеристик заліза (Один обов'язок - збереження даних)
     public class HardwareSpecs
     {
         public int CpuCores { get; set; }
